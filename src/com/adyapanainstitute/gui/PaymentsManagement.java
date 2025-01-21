@@ -10,11 +10,11 @@ package com.adyapanainstitute.gui;
  */
 public class PaymentsManagement extends javax.swing.JPanel {
 
-    /**
-     * Creates new form PaymentsManagement
-     */
-    public PaymentsManagement() {
+    private static Dashboard dashboard;
+    
+    public PaymentsManagement(Dashboard dashboard) {
         initComponents();
+        this.dashboard = dashboard;
     }
 
     /**

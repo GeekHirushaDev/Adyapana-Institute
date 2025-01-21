@@ -10,11 +10,11 @@ package com.adyapanainstitute.gui;
  */
 public class ReportsManagement extends javax.swing.JPanel {
 
-    /**
-     * Creates new form ReportsManagement
-     */
-    public ReportsManagement() {
+    private static Dashboard dashboard;
+    
+    public ReportsManagement(Dashboard dashboard) {
         initComponents();
+        this.dashboard = dashboard;
     }
 
     /**

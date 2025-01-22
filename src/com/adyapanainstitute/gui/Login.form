@@ -115,9 +115,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="usernameField">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Hirusha"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
@@ -148,9 +145,6 @@
           </Events>
         </Component>
         <Component class="javax.swing.JPasswordField" name="passwordField">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Hirusha@123"/>
-          </Properties>
         </Component>
       </SubComponents>
     </Container>
